@@ -18,4 +18,6 @@ void main() {
   dynamic x = 'hal';
   print(x.runtimeType); //数据类型
   print(x);
+
+
 }
