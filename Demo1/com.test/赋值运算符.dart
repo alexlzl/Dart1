@@ -35,9 +35,10 @@
  *  a%=b : 12
  */
 void main() {
-  var a = 12;
+  double a = 12;
   var b = 3;
-
+  a/=b;
+   print("a/b=="+a.toString());
   a += b;
   print("a+=b : ${a}");
 
