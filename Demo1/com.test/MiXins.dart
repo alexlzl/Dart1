@@ -57,4 +57,12 @@ void main() {
   b3.a(); //a1
   b4.a(); // a
   b5.a(); // b5
+  /**
+   * mixins的实例类型是什么？
+   * 很简单，mixins的类型就是其超类的子类型，所以：
+   */
+  B3 bb = B3();
+  print(bb is C);
+  print(bb is A);
+  print(bb is A1);
 }
